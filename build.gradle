@@ -140,6 +140,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation "org.jsoup:jsoup:$jsoupVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.1"
 
     testImplementation ("com.github.kstyrc:embedded-redis:$embeddedRedisVersion") {
         exclude group: 'org.slf4j', module: 'slf4j-simple'
